@@ -1,0 +1,129 @@
+
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-image: url('wallpaper.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}   
+
+header {
+    
+    padding: 20px;
+    display: flex;
+    justify-content: space-between; 
+
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none; 
+    color: whitesmoke;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.foto img {
+    width: 300px;
+    border-radius: 50%;
+}
+
+.apresentacao {
+    width: 70%;
+    margin-left: 20px;
+    text-align: left;
+    color: whitesmoke;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+  }
+
+.formacao, .experiencia {
+    padding: 30px;
+    color: whitesmoke;
+}
+
+.formacao ul, .experiencia ul {
+    list-style: none;
+    padding: 0;
+    color: whitesmoke;
+}
+
+.formacao li, .experiencia li {
+    margin-bottom: 10px;
+    color: whitesmoke;
+}
+
+.contato {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.foto-perfil {
+    width: 300px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.informacoes p {
+    margin-bottom: 10px;
+    color: whitesmoke;
+}
+
+.informacoes p img {
+    margin-right: 5px;
+}
+
+.link {
+    text-decoration: none; /* Remove o sublinhado */
+    color: #0077B5; /* Altera a cor para o azul do LinkedIn, ajuste conforme necessário */
+}
+
+.titulo-contato {
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: whitesmoke;
+}
+
+.projeto {
+    margin-top: 100px;
+    margin-left: 250px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    color: whitesmoke;
+  }
+  
+.projeto-conteudo {
+    margin-left: 20px;
+}
+  
+.projeto img {
+    max-width: 300px;
+    height: auto;
+}
